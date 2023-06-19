@@ -1,0 +1,32 @@
+<!-- <header>
+    <nav>
+      <h1>E-Learning Platform</h1>
+      
+        <a routerLink="/">Home</a>
+        <a routerLink="/search">Search</a>
+        <a routerLink="/login" *ngIf="!isLoggedIn()">Login</a>
+        <a (click)="logout()" *ngIf="isLoggedIn()">Logout</a>
+     
+    </nav>
+  </header> -->
+
+  <header class="header">
+    <a href="#" class="logo">E-learning</a>
+    <nav class="nav-items">
+      
+      <a routerLink="/">Home</a>
+      <a routerLink="/search">Search</a>
+       <a routerLink="/login" *ngIf="!isLoggedIn()">Login</a>
+       <a (click)="logout()" *ngIf="isLoggedIn()">Logout</a>
+     
+    </nav>
+  </header>
+
+  <!-- <header class="header">
+    <a href="#" class="logo">Developer</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header> -->
